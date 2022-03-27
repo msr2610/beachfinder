@@ -1,0 +1,3 @@
+com\baeldung\ls\persistence\repository\ProjectRepositoryIntegrationTest.class
+com\baeldung\ls\persistence\repository\TaskRepositoryIntegrationTest.class
+com\baeldung\ls\web\controller\ProjectControllerIntegrationTest.class
