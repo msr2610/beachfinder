@@ -21,14 +21,14 @@ public class LsApp {
         
     } // main
     
-    
+    // Method to display all bean names
     public static void displayAllBeans() {
 
         String[] beans = appContext.getBeanDefinitionNames();
         int i = 0;
         for (String beanname : beans) {
         	i++;
-            System.out.println("********* From LsApp class - " + i + " " + beanname);
+            System.out.println("********* From within LsApp class - " + i + " " + beanname);
         } // for
 
         
