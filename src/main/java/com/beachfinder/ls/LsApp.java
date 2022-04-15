@@ -28,7 +28,7 @@ public class LsApp {
         int i = 0;
         for (String beanname : beans) {
         	i++;
-            System.out.println("********* From within LsApp class - " + i + " " + beanname);
+            System.out.println("*********++ From within LsApp class ~~ - " + i + " " + beanname);
         } // for
 
         

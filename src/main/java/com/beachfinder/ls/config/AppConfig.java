@@ -9,7 +9,7 @@ import com.beachfinder.ls.service.impl.InitMethodExampleBean;
 
 @Configuration
 @Profile("development")
-@ComponentScan // (basePackageClasses = InitMethodExampleBean.class)
+@ComponentScan //// (basePackageClasses = InitMethodExampleBean.class)
 public class AppConfig {
 	
 	@Bean
